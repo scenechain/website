@@ -91,6 +91,12 @@ a {
 	font-size: 18px;
 }
 
+@media only screen and (max-width: 768px) {
+	.navigation {
+		font-size: 15px;
+	}
+}
+
 a, .scene {
 	color: #C48AFF;
 }
