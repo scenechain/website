@@ -12,6 +12,10 @@ body {
 	font-family: 'Roboto', Arial;
 }
 
+body, body * {
+    max-height: 1000000px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -91,12 +95,6 @@ a {
 	font-size: 18px;
 }
 
-@media only screen and (max-width: 768px) {
-	.navigation {
-		font-size: 15px;
-	}
-}
-
 a, .scene {
 	color: #C48AFF;
 }
@@ -118,7 +116,11 @@ footer {
 	margin-bottom: 10px;
 }
 
-.external-navigation {
+.external-navigation  {
+	margin-top: 20px;
+}
+
+.external-navigation a {
 	font-size: 18px;
 	margin-top: 20px;
 }
